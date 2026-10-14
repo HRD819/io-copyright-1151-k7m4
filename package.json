@@ -1,0 +1,12 @@
+{
+  "name": "copyright-page-gallery",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs",
+    "ci": "npm run build && npm run check",
+    "serve": "node scripts/serve.mjs"
+  }
+}
